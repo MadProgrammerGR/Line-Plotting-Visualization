@@ -14,7 +14,7 @@ public class Controller extends JFrame {
 
 	public Controller(LinePlotter plotter) {
 		this.plotter = plotter;
-		add(new JLabel("Size"));
+		add(new JLabel("Resolution"));
 		
 		slider = new JSlider(5, plotter.width, 10);
 		slider.setMajorTickSpacing((slider.getMaximum() - slider.getMinimum())/3);
